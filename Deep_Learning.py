@@ -15,6 +15,7 @@ class ImageDrawingEvolutionary:
         img[:, :] = np.array([0, 0, 0])
         # if not os.path.exists('monaliza'):
         #     os.mkdir('monaliza')
+        # 좆까
         img = cv2.imread("monaliza/im28100.JPG")
         return img
 
@@ -219,7 +220,7 @@ if __name__ == '__main__':
 
         population = ImageDrawingEvolutionary.select_best(population+new_population, len(population))
 
-        print("-------------After Select----------------")
+        print("-------------After Select 시발----------------")
         print(f"Generation : {generation}")
         for each in population:
             print(each.fitness)
