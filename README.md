@@ -8,7 +8,7 @@
      <td>AI Artist's attempt at it</td>
   </tr>
   <tr>
-    <td><img src="IMG_9059.JPG" width=500 height=500></td>
+    <td><img src="IMG_9059.JPG" width=600 height=600></td>
     <td><img src="result.gif" width=500 height=500></td>
   </tr>
  </table>
